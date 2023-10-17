@@ -1,15 +1,12 @@
 #If, else, elif
 
-#idade = int(input('Informe sua idade:'))
+idade = int(input('Informe sua idade:'))
 
-#if idade >= 60:
-    #print('Melhor idade')
+if idade >= 60:
+    print('Melhor idade')
 
-#elif idade >= 18:
-    #print('Maior de idade')
+elif idade >= 18:
+    print('Maior de idade')
 
-#else:
-    #print('Menor de idade')
-
-nome = ('Helo')
-print = (nome.capitalize)
+else:
+    print('Menor de idade')
