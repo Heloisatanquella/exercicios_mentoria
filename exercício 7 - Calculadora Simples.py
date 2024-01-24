@@ -2,15 +2,15 @@
 
 number_1 = float(input('Digite o primeiro número:'))
 number_2 = float(input('Digite o segundo número:'))
-operation = input('Agora insira a operação desejada:')
+operation = input('Agora insira a operação desejada (+, -, *, /):')
 
-if operation == 'adição':
+if operation == '+':
     result = number_1 + number_2
-elif operation == 'subtração':
+elif operation == '-':
     result = number_1 - number_2
-elif operation == 'multiplicação':
+elif operation == '*':
     result = number_1 * number_2
-elif operation == 'divisão':
+elif operation == '/':
     if number_2 != 0:
         result = number_1 / number_2
     else:

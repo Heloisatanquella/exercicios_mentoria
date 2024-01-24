@@ -15,4 +15,4 @@ montante = principal + (principal * taxa * tempo)
 
 #Exibe o resultado
 
-print(f"O montante após {tempo} ano(s) é de: R$ {montante:}")
+print(f'O montante após {tempo} ano(s) é de: R$ {montante:}')

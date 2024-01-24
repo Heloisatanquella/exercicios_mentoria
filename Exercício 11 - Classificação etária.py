@@ -1,6 +1,6 @@
 #Classificação Etária
 
-age = float(input('Insira a sua idade, para saber em qual faixa etária você está:'))
+age = int(input('Insira a sua idade, para saber em qual faixa etária você está:'))
 
 if age <= 12:
     print('Hey! Você é uma criança!')

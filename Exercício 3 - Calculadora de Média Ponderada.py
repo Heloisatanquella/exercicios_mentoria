@@ -13,9 +13,8 @@ peso_3 = float(input('Insira o peso da terceira nota:'))
 
 #Calcular a média ponderada
 
-soma_pesos = peso_1 + peso_2 + peso_3
 media_ponderada = (nota_1 * peso_1 + nota_2 * peso_2 + nota_3 * peso_3) / 3
 
 #Exibe a média ponderada na tela do usuário
 
-print(f"A média ponderada das notas é: {media_ponderada:}")
+print(f'A média ponderada das notas é: {media_ponderada:}')
